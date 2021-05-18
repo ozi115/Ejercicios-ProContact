@@ -1,0 +1,23 @@
+{
+  "name": "practicas",
+  "version": "1.0.0",
+  "description": "webservices",
+  "main": "mostrarPersonas.js",
+  "scripts": {
+    "dev": "DEBUG=app: * nodemon index",
+    "start": "NODE_ENV=PRODUCTION NODE INDEX"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "yup": "^0.32.9"
+  }
+}
